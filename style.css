@@ -1,0 +1,96 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  padding: 0;
+  background-color: #fff;
+}
+
+nav {
+  background-color: #a306b6;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+}
+li{
+display: inline-block;
+padding-right: 5%;
+}
+
+a{
+color: #fff;
+text-decoration: none;
+}
+
+.active {
+background-color: #fff;
+color: #a306b6;
+padding-bottom: 100%;
+padding-top: 100%;
+padding-left: 50%;
+padding-right: 50%;
+}
+
+h1 {
+text-align: center;
+background-color: #d8d8d8;
+border-radius: 5px;
+margin-left: 15%;
+margin-right: 15%;
+padding-top: 1.5%;
+padding-bottom: 1.5%;
+font-size: 220%;
+margin-bottom: 5%;
+}
+
+form {
+margin-left: 30%;
+margin-right: 30%;
+}
+
+h2{
+font-size: 150%;
+}
+
+div{
+display: grid;
+margin-bottom: 5%;
+}
+
+input{
+background-color: #d8d8d8;
+border: none;
+border-radius: 5px;
+height: 200%;
+}
+
+textarea{
+  background-color: #d8d8d8;
+  border: none;
+  border-radius: 5px;
+  height: 100%;    
+}
+
+button {
+background-color: #a306b6;
+border: none;
+border-radius: 9px;
+font-size: 120%;
+color: #fff;
+padding-left: 2%;
+padding-right: 2%;
+padding-top: 0.5%;
+padding-bottom: 0.5%;
+}
+
+footer {
+margin-top: 5%;
+bottom: 0;
+background-color: #9f9f9f;
+color: #fff;
+width: 100%;
+padding-top: 0.5%;
+padding-bottom: 0.5%;
+padding-left: 0.5%;
+}

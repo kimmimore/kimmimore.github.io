@@ -1,77 +1,21 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html>
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>The box model</title>
-
-    <link rel="stylesheet" href="style.css">
-
+  <title>Milk of the Day</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
+    <header>
+        <h1>Hello! What is the milk of the day?</h1>
+    </header>
 
-    <nav>
-
-        <ul>
-
-            <li><a class="active" href="#">Home</a></li>
-
-            <li><a href="#">About</a></li>
-
-            <li><a href="#">Contact</a></li>
-
-        </ul>
-
-    </nav>
-
-    <main>
-
-        <h1>The box model</h1>
-
-        <form>
-
-            <h2>Leave your message</h2>
-
-            <div>
-
-                <label for="name">Name</label>
-
-                <input type="text" id="name">
-
-            </div>
-
-            <div>
-
-                <label for="email">Email</label>
-
-                <input type="email" id="email">
-
-            </div>
-
-            <div>
-
-                <label for="message">Message</label>
-
-                <textarea id="message" rows="10"></textarea>
-
-            </div>
-
-            <button type="submit">Submit</button>
-
-        </form>
-
-    </main>
-
-    <footer>&copy; Wilder</footer>
-
+    <div class="container">
+        <input type="text" id="milkInput" placeholder=" Enter your answer">
+        <button onclick="checkMilk()">Submit</button>
+        <p id="response"></p>
+    </div>
+    <img src="milk.gif" alt="Footer Image" class="footer-image">
+    <footer> Brought to you by &copy MilkyBoy Productions. </footer>
+  <script src="script.js"></script>
 </body>
-
 </html>

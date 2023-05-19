@@ -1,7 +1,7 @@
 @font-face {
     font-family: SkinnyDrip;
     src: url(skinnydrip.ttf) format("truetype");
-    src: url(skinnydrip.otf) format("opentype");
+    src: url(SkinnyDrip.otf) format("opentype");
     src: url(skinnydrip.woff) format("woff");
     src: url(skinnydrip.woff2) format("woff2");
 }
